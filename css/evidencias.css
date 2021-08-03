@@ -1,0 +1,54 @@
+.txtHora {
+    background-color: #F2f2F2;
+    width: 150px;
+    border-radius: 200px;
+    margin-left: 15px;
+    text-align: left;
+  }
+
+  .txtChoose {
+    background-color: #F2f2F2;
+    width: 380px;
+    border-radius: 200px;
+    text-align: left;
+    margin-left: 15px;
+  }
+
+  .carta2 {
+    /* background-color: red; */
+    height: 120px;
+    width: 500px;
+  }
+
+  .btnEstablecer {
+    background-color: #F24B59;
+    border-radius: 10px;
+  }
+
+  a.btnEstablecer:hover {
+    background-color: #0e0c35;
+  }
+
+.labelHora {
+    /* background-color: red; */
+    width: 100px;
+    margin-left: 45px;
+}
+
+.titulo {
+  /* background-color: red; */
+  position: absolute;
+  bottom: 80px;
+}
+
+.desc {
+  /* background-color: red; */
+  position: absolute;
+  bottom: 40px;
+  left: 75px;
+}
+
+.carta {
+  /* background-color: red; */
+  height: 218px;
+}
