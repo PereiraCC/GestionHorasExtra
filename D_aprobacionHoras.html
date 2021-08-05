@@ -153,8 +153,8 @@
                                                         <td><a href="acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt">Archivo</a></td>
                                                         <td>
                                                             <div class="row">
-                                                                <a id="myBtn" class="btn fa fa-check-square accion"></a>
-                                                                <a id="myBtnNegative" class="btn fa fa-trash-alt accion"></a>
+                                                                <a id="myBtn" onclick="modalAceptar('myBtn')" class="btn fa fa-check-square accion"></a>
+                                                                <a id="myBtnNegative" onclick="modalARechazar('myBtnNegative')" class="btn fa fa-trash-alt accion"></a>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -166,8 +166,8 @@
                                                         <td><a href="acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt">Archivo</a></td>
                                                         <td>
                                                             <div class="row">
-                                                                <a id="myBtn" class="btn fa fa-check-square accion"></a>
-                                                                <a id="myBtnNegative" class="btn fa fa-trash-alt accion"></a>
+                                                                <a id="myBtn2" onclick="modalAceptar('myBtn2')" class="btn fa fa-check-square accion"></a>
+                                                                <a id="myBtnNegative2" onclick="modalARechazar('myBtnNegative2')" class="btn fa fa-trash-alt accion"></a>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -179,8 +179,8 @@
                                                         <td><a href="acme-doc-2.0.1.txt" download="Acme Documentation (ver. 2.0.1).txt">Archivo</a></td>
                                                         <td>
                                                             <div class="row">
-                                                                <a class="btn fa fa-check-square accion"></a>
-                                                                <a class="btn fa fa-trash-alt accion"></a>
+                                                                <a id="myBtn3" onclick="modalAceptar('myBtn3')" class="btn fa fa-check-square accion"></a>
+                                                                <a id="myBtnNegative3" onclick="modalARechazar('myBtnNegative3')"class="btn fa fa-trash-alt accion"></a>
                                                             </div>
                                                         </td>
                                                     </tr>
@@ -228,31 +228,31 @@
                 </div>
             </div>
           
-          </div>
+        </div>
 
-          <div id="ModalNegacion" class="modal">
+        <div id="ModalNegacion" class="modal">
 
-            <div class="modal-content">
-              <span class="closeN">&times;</span>
-                <h3>Rechazar formulario</h3>
-                <div class="carta">
-                    <h4 class="card-title">Comentario</h4>
-                    <div class="form-group row">
-                        <div class="col-md-8 row">
-                            <textarea  placeholder="Descripcion" class="form-control form-control-line txtArea"></textarea>
-                        </div>
-                        
+        <div class="modal-content">
+            <span class="closeN">&times;</span>
+            <h3>Rechazar formulario</h3>
+            <div class="carta">
+                <h4 class="card-title">Comentario</h4>
+                <div class="form-group row">
+                    <div class="col-md-8 row">
+                        <textarea  placeholder="Descripcion" class="form-control form-control-line txtArea"></textarea>
                     </div>
-                    <div class="col-md-1">
-                        <div class="text-end upgrade-btn">
-                            <a onclick="definirCantidadDigitos()"
-                                class="btn text-white btnEstablecer2">Rechazar</a>
-                        </div>
+                    
+                </div>
+                <div class="col-md-1">
+                    <div class="text-end upgrade-btn">
+                        <a onclick="definirCantidadDigitos()"
+                            class="btn text-white btnEstablecer2">Rechazar</a>
                     </div>
                 </div>
             </div>
-          
-          </div>
+        </div>
+        
+        </div>
 
         <footer class="footer1 text-center">
             <hr class="linea">
