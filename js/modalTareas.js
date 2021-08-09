@@ -47,3 +47,10 @@ function cerrarModalActividades() {
 
   span.onclick = () => modal.style.display = "none";
 }
+
+function cerrarModalActividades2() {
+  const modal = document.getElementById("myModal2");
+  const span = document.getElementsByClassName("btnCerrar")[0];
+
+  span.onclick = () => modal.style.display = "none";
+}
